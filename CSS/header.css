@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: pop-R;
+}
+
+:root {
+  --bg-color: rgb(131, 188, 131);
+  --secondary-color: rgb(238, 244, 238);
+  --white-color: rgb(255, 255, 255);
+  --black-color: #212727;
+
+  --font-regular: pop-R;
+  --font-semibold: pop-SB;
+  --font-bold: pop-B;
+}
+
+/*
+----------------
+Pre Defined Area
+----------------
+*/
+.df-r {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.df-c {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+  margin: 0 0 2rem 0;
+  background-color: var(--black-color);
+  box-shadow: 5px 5px 20px 2px var(--white-color);
+}
+
+.header_title_container h1 {
+  font-family: var(--font-bold);
+}
+
+.header_title_container h2 {
+  font-family: var(--font-semibold);
+}
+
+.header .top_header::after {
+  content: "";
+  width: 350px;
+  height: 5px;
+  background: linear-gradient(var(--black-color), var(--white-color));
+  transition: width 0.3s ease;
+  border-radius: 100vh;
+}
+
+.header .top_header h1,
+.header .top_header h2,
+.header .bottom_header h1,
+.header .bottom_header h2 {
+  color: var(--white-color);
+}
+
+.header .top_header:hover::after {
+  width: 550px;
+  transition: width 0.3s ease;
+}
+
+#hero .header img:first-child {
+  max-width: 100px;
+}
+
+#hero .header img:last-child {
+  max-width: 200px;
+}
