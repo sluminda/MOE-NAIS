@@ -7,8 +7,8 @@
 
 :root {
   --bg-color: rgb(131, 188, 131);
-  --secondary-color: rgb(238, 244, 238);
-  --white-color: rgb(255, 255, 255);
+  --secondary-color: rgb(153, 186, 153);
+  --white-color: rgb(232, 215, 215);
   --black-color: #212727;
 
   --font-regular: pop-R;
@@ -37,7 +37,7 @@ Pre Defined Area
   justify-content: space-between;
   align-items: center;
   padding: 1rem 6rem;
-  margin: 0 0 2rem 0;
+  margin: 0 0 0 0;
   background-color: var(--black-color);
   box-shadow: 5px 5px 20px 2px var(--white-color);
 }
