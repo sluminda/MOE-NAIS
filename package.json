@@ -1,7 +1,6 @@
 {
   "name": "nemis-na",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "node-sass": "sass -w scss/: CSS/"
@@ -10,7 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "prettier": "^3.2.5",
     "sass": "^1.74.1"
   }
+=======
+    "prettier": "^3.2.5"
+  },
+  "description": ""
+>>>>>>> 7d60fc11fa5fc10b9e5d5dbad98971f24fc4e0b1
 }
