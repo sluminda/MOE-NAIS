@@ -49,14 +49,14 @@ Pre Defined Area
   font-family: var(--font-semibold);
 }
 
-.header .top_header::after {
+/* .header .top_header::after {
   content: "";
   width: 350px;
   height: 5px;
   background: linear-gradient(var(--black-color), var(--white-color));
   transition: width 0.3s ease;
   border-radius: 100vh;
-}
+} */
 
 .header .top_header h1,
 .header .top_header h2,

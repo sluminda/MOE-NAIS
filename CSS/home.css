@@ -1,19 +1,68 @@
 #body main {
   display: grid;
-  grid-template-columns: 5fr 2fr;
+  grid-template-columns: 4fr 2fr;
 }
 
+/*
+====================
+Home Left Side
+====================
+*/
 #body main .left {
-  background-color: rgb(175, 169, 169);
+  background-color: rgb(220, 228, 251);
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  padding: 5rem;
+  padding: 3.2rem;
 }
 
 #body main .left .box-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-column-start: 2;
   grid-column-end: 6;
   text-align: center;
-  height: 53vh;
-  background-color: wheat;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 1.5rem 2.5rem;
+}
+
+#body main .left .box-1 h2 {
+  font-family: pop-B;
+  grid-column: span 2;
+  padding: 0 0 0.5rem 0;
+}
+
+#body main .left .box-1 div {
+  grid-column: span 2;
+}
+#body main .left .box-1 div p {
+  padding: 0.3rem;
+}
+
+/*
+====================
+Home Right Side
+====================
+*/
+
+#body main .right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#body main .right .box-2 {
+  grid-column: span 2;
+  text-align: center;
+  display: grid;
+}
+
+#body main .right .box-2 img {
+  width: 300px;
+}
+
+#body main .right .box-2 form {
+  grid-column: span 2;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
 }
