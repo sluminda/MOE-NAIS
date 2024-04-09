@@ -1,11 +1,14 @@
 .footer {
-  padding: 1rem 0;
+  display: flex;
+  padding: 0.5rem 0;
   position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: var(--black-color);
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
 }
 
 .footer p {

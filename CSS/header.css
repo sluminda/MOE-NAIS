@@ -36,6 +36,7 @@ Pre Defined Area
 .header {
   justify-content: space-between;
   align-items: center;
+  height: 19vh;
   padding: 0.5rem 6rem;
   background-color: var(--black-color);
   box-shadow: 5px 5px 20px 2px var(--white-color);
