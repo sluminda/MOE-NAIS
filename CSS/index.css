@@ -25,6 +25,7 @@ Home Left Side
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
   padding: 2rem 2.5rem;
+  position: relative;
 }
 
 @media screen and (max-width: 1000px) {
@@ -43,8 +44,74 @@ Home Left Side
 #body main .left .box-1 div {
   grid-column: span 2;
 }
+
 #body main .left .box-1 div p {
   padding: 0.6rem;
+}
+
+/*
+====================
+Left side Navigation
+====================
+*/
+#body main .left .box-1 nav {
+  display: flex;
+  transform: rotate(180deg);
+  position: absolute;
+  left: -7%;
+  top: 2%;
+}
+
+#body main .left .box-1 nav li {
+  list-style-type: none;
+  position: relative;
+  display: flex;
+}
+
+#body main .left .box-1 nav li a {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  padding: 1rem 0.6rem;
+  writing-mode: vertical-lr;
+  font-size: medium;
+}
+
+#body main .left .box-1 nav li #nav-one {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 1px;
+}
+
+#body main .left .box-1 nav li #nav-two {
+  margin-bottom: 1px;
+}
+
+#body main .left .box-1 nav li #nav-three {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/*
+====================
+Home Left Side Views
+====================
+*/
+
+#body main .left .box-1 .contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* position: relative; */
+}
+
+#body main .left .box-1 .contact-containers h2 {
+  grid-column: span 2;
+}
+
+#body main .left .box-1 .contact-containers iframe {
+  grid-column: span 2;
 }
 
 /*

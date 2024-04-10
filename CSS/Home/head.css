@@ -1,0 +1,20 @@
+#header {
+  grid-area: 1 / 1 / 2 / 4;
+  background-color: var(--black-color);
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: center;
+}
+
+#header img:first-child {
+  width: 110px;
+}
+
+#header img:last-child {
+  width: 220px;
+}
+
+#header .text_container h1 {
+  color: var(--white-color);
+  font-size: 1.6rem;
+}

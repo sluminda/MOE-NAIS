@@ -33,6 +33,10 @@ Pre Defined Area
   position: relative;
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   justify-content: space-between;
   align-items: center;

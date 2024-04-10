@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: pop-R;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+:root {
+  --bg-color: rgb(131, 188, 131);
+  --secondary-color: rgb(153, 186, 153);
+  --white-color: rgb(232, 215, 215);
+  --black-color: #212727;
+
+  --font-regular: pop-R;
+  --font-semibold: pop-SB;
+  --font-bold: pop-B;
+}
+
+/*
+  ----------------
+  Pre Defined Area
+  ----------------
+  */
+.df-r {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.df-c {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: 150px auto 40px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
