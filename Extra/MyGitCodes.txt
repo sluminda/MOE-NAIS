@@ -10,9 +10,9 @@ git commit -m "First Commit" (~)
 git branch -M main
 git push -u origin main
 
-git remote add origin https://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@github.com/sluminda/DineExpress_Website
+e1e0980f8f7a192c2352e4b032778180779084188d72b366e49d1a1e443a077a
 
-git remote set-url origin https://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@github.com/sluminda/DineExpress_Website
+01b8556cf8e8790db2aab7170c6bcb7d2f929b62009660c4c3de34a4dd68c97a
 
 
 
@@ -40,12 +40,10 @@ git branch -c Working
 
 
 
-git remote add origin https://github.com/sluminda/DineExpress
 git remote -v  (To check)
 
 
 
-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
 -M  = 
 -m  = messege
 -b  = branch
