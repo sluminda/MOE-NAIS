@@ -1,0 +1,20 @@
+1. npm i -g prettier (and Extention)
+
+{
+  "editor.fontSize": 18,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": -1,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "vscode.html-language-features"
+}
+
+Change settings of 

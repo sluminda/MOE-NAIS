@@ -1,0 +1,52 @@
+git -v
+git config --global user.name "Luminda Saranga"
+git config --global user.email "sluminda@gmail.com"
+git config --global init.default Branch main
+git config user.name
+git init (U)
+git status
+git add . (A)
+git commit -m "First Commit" (~)
+git branch -M main
+git push -u origin main
+
+git remote add origin https://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@github.com/sluminda/DineExpress_Website
+
+git remote set-url origin https://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@github.com/sluminda/DineExpress_Website
+
+
+
+
+
+
+git add <file.txt>
+git init -b main
+git help config
+rm -rf .git    - Remvoe git from project
+git log
+qa + enter to exit vm
+git restore <file.html>
+git restore --staged <file.html>
+git commit -a -m "Second Commit with files"
+git add <file.html>
+git diff (check different - Working Directory)
+git diff --staged(check different - Staging Area)
+git rm --cached <file.html>   (Remove a File form git - After commit again)
+git clone <address>
+
+
+git branch
+git branch -c Working
+
+
+
+git remote add origin https://github.com/sluminda/DineExpress
+git remote -v  (To check)
+
+
+
+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
+-M  = 
+-m  = messege
+-b  = branch
+-c  = create
